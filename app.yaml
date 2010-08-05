@@ -1,0 +1,11 @@
+application: joeydegges
+version: plain-text
+runtime: python
+api_version: 1
+
+handlers:
+- url: /
+  static_files: static/index.html
+  upload: static/index.html
+- url: /
+  static_dir: static
