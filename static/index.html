@@ -7,49 +7,71 @@
   </head>
   <body>
     <pre style="font-family:courier new">
-Here are some projects I have worked on (listed in roughly reverse
-chronological order):
+I'm currently a student at UCLA. Here are some projects I have worked on. Most
+of them are open source and what not so feel free to submit patches or email me
+with any questions (most title links are to the github repository).
 
-• This website
-  - 2010
-  - source code: http://github.com/jdegges/jdegges
-• Real-time Image Registration
-  - Arete Associates, 2010
-• Arsenal: distributed SFTP based file system
-  - 2010
-  - source code: http://github.com/jdegges/arsenal
-• DNArm: Parallel DNA Read Mapper
-  - Computational Genetics 124, 2010
-  - source code: http://github.com/jdegges/DNArm
-• StressChill/WeTap: Participatory Sensing with Android
-  - CENS, 2009-2010
-  - source code: http://github.com/eyuen/StressChill,
-                 http://github.com/jdegges/WeTap
-• loomlib: parallel data structures library (queue, pool, pipeline, graph, etc.)
-  - 2009-2010
-  - source code: http://github.com/jdegges/loomlib
-• Ripper Game: 3D Role Playing Game created with LightSpeed
-  - 2009-2010
-  - Website: http://rippergame.com
-• Parallel Sort
-  - Software Engineering 130, 2009
-• Depth from Defocus
-  - Arete Associates, 2009
-• PIP: Portable Image Platform
-  - CENS, 2008-2009
-  - source code: http://github.com/jdegges/image-analyzer,
-                 http://github.com/jdegges/gumstix-pip-oe,
-                 http://github.com/jdegges/pipweb
-• Multi-Tier Computing and Energy Profiling
-  - CENS, 2008
-• H.264/AVC Video Compression
-  - Google Summer of Code, 2008
-• Gumstix Nestbox Deployment
-  - CENS, 2006-2007
-• Cyclops Pitfall Traps
-  - CENS, 2006
+• <a href="http://www.arete.com">Real-time Image Registration</a> (2010)
+  - Summer Internship at Aret&eacute; Associates
+• <a href="http://github.com/jdegges/arsenal">Arsenal: distributed SFTP based file system</a> (2010)
+  - My solution to redundant and distributed personal network storage. It
+    allows any computer on your network to act as a dumb storage node. Any
+    clients can use Arsenal to manage a battery of SSH servers. The Arsenal
+    clients can be configured with the network topology with a simple XML file.
+  - Currently Arsenal operates in read-only mode (so there is no way to lose
+    data!)
+  - One of the primary goals of the project (besides providing consolidated
+    network storage) is to provide a solid and robust interface to your data.
+    If Arsenal crashes your data will still be laid out logically on all disk
+    drives so manual recovery is possible.
+• <a href="http://github.com/jdegges/DNArm">DNArm: Parallel DNA Read Mapper</a> (2010)
+  - Computational Genetics 124 class project (UCLA)
+• <a href="http:///participatorysensing.org">StressChill/WeTap: Participatory Sensing with Android</a> (2009-2010)
+  - WeTap: a participatory sensing campaign geared towards identifying,
+    describing and mapping public drinking fountains.
+  - StressChill: a participatory sensing campaign developed for a pilot LAUSD
+    curriculum intended to give students exposure to the technical fields.
+    Students can upload and categorize geotagged images of places that make
+    them feel "Stressfull" or "Chillfull".
+• <a href="http://github.com/jdegges/loomlib">loomlib: parallel data structures library</a> (2009)
+  - Implemented several data structures for simplifying the development of
+    multi-threaded applications.
+  - Asynchronous queue/list.
+  - Thread pool. Essentially an asynchronous queue of function pointers.
+  - Pipeline. Designate different pipeline stages (or pumps) that all run
+    concurrently to process data in a stream-like fashion.
+  - Tree. A pipeline with branches where each node may have multiple children.
+    Problems where a data flows is easily split and never joined work well with
+    this paradigm.
+• <a href="http://rippergame.com">Ripper Game: 3D Role Playing Game created with LightSpeed</a> (2009-2010)
+• <a href="http://github.com/chenguo/coreutils">Parallel Sort</a>
+  - Software Engineering 130 class project (UCLA)
+  - We extended GNU Core Utilities sort to include parallel internal and
+    external sorting algorithms.
+• <a href="http://www.arete.com">Depth from Defocus</a> (2009)
+  - Summer Internship at Aret&eacute; Associates
+• <a href="http://sites.google.com/site/gumstixcens/Home">PIP: Portable Image Platform</a> (2008-2009)
+• Multi-Tier Computing and Energy Profiling  (2008)
+  - Developed a multi-tier vision algorithm for differentiating between
+    pedestrian and vehicular movements which achieved overall power savings of
+    50% and accuracy improvements of 30% vs. traditional methods.
+• <a href="http://www.videolan.org/developers/x264.html">H.264/AVC Video Compression</a> (2008)
+  - Google Summer of Code 2008
+• Gumstix Nest Box Deployment  (2006-2007)
+  - Deployed low powered audio recording devices and networked cameras into
+    several nest boxes to monitor the nesting cycle of various bird species.
+  - A detection and classification system was developed to determine the
+    current nesting stage.
+  - Adaptive sampling techniques were used to further reduce power consumption
+    without significantly degrading classification.
+• <a href="http://lecs.cs.ucla.edu/wiki/index.php/Joey_Degges#Cyclops_Project">Cyclops Pitfall Traps</a> (2006)
+  - Built and deployed a network of low-powered wireless cameras into an array
+    of pitfall traps.
+  - One image was collected from each node every five minutes and aggregated on
+    a nearby server for analysis.
+  - A detector was implemented to raise alerts when objects fell into the trap.
 
-You can reach me by email at this domain @ gmail.com.
+You can reach me by email at this domain at gmail.com.
     </pre>
     <p>
       <a href="http://code.google.com/appengine/"><img
